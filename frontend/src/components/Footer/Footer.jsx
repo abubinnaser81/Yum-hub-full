@@ -29,12 +29,23 @@ const Footer = () => {
                 GET IN
             </h2>
             <ul>
-                <li>01832617081</li>
-                <li>01836303125</li>
-                <li>abunaser50032@gmail.com</li>
-                <li>fahmidaamintonni@gmail.com</li>
+  <li onClick={() => window.location.href = "tel:01832617081"}>
+    01832617081
+  </li>
 
-            </ul>
+  <li onClick={() => window.location.href = "tel:01836303125"}>
+    01836303125
+  </li>
+
+  <li onClick={() => window.location.href = "mailto:abunaser50032@gmail.com"}>
+    abunaser50032@gmail.com
+  </li>
+
+  <li onClick={() => window.location.href = "mailto:fahmidaamintonni@gmail.com"}>
+    fahmidaamintonni@gmail.com
+  </li>
+</ul>
+
         </div>
     </div>
     <hr />
